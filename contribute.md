@@ -1,0 +1,11 @@
+## Manual installation
+ - Install nodejs locally ()
+ - Clone the repo
+ - Install dependencies (npm install)
+ - Start db locally
+    - docker run -e POSTGRES_PASSWORD=mysecretpassword -d -p 5432:5432 postgres
+ - Change the .env file and update your db credentials
+ - npx prisma generate
+ - npx prisma migrate
+ - npm run  build
+ - npm run start
